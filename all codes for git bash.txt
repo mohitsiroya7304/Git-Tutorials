@@ -6,7 +6,7 @@
 	git add .
 
 3rd after add set commit. so run,
-	git commit -m "(name)"
+	git commit -m "name"
 
 4th and then push the file to git. so run,
 	git push -u origin master
