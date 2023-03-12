@@ -1,2 +1,5 @@
 utility function version 1
 for the git hub 
+
+
+git add successfully
