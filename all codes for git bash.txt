@@ -1,0 +1,19 @@
+
+1st when start git bash command
+	git status
+
+2nd and then when project is complet run 
+	git add .
+
+3rd after add set commit. so run,
+	git commit -m "(name)"
+
+4th and then push the file to git. so run,
+	git push -u origin master
+
+
+5th for check commit run 
+	git log
+
+6th if you want to pull file from git hub. so run,
+	git pull origin master
