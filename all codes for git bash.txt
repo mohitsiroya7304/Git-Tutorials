@@ -17,3 +17,11 @@
 
 6th if you want to pull file from git hub. so run,
 	git pull origin master
+
+7th when you need to add new repository, run this
+	1st :- 	git init
+	2nd :-	git add .
+	3rd :-	git commit -m "name"
+	4th :- 	git branch -M "Name shown in repository's code"
+	5th :-	git remote add (name of the remote) (ssh link of the repository)
+	6th :- 	git push -u (name of the remote) (name of the branch)
