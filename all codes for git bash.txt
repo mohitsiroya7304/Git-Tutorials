@@ -16,7 +16,7 @@
 	git log
 
 6th if you want to pull file from git hub. so run,
-	git pull origin master
+	git pull (name of the remote) (name of the branch)
 
 7th when you need to add new repository, run this
 	1st :- 	git init
@@ -25,3 +25,18 @@
 	4th :- 	git branch -M "Name shown in repository's code"
 	5th :-	git remote add (name of the remote) (ssh link of the repository)
 	6th :- 	git push -u (name of the remote) (name of the branch)
+
+8th you want to know the change of the file simpaly run,
+	git diff (name of the file)
+
+9th if you add a file and want to deselect file then run this to reset the file
+	git reset (name of the file)
+	
+
+10th if you want to check out file then run (in this you will get back your old file)
+	:- {if you want check out only selected file then run}
+		git checkout (name of file)
+	:- {if you want to check out all files then run}
+		git checkout .
+
+11th 
