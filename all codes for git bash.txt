@@ -39,4 +39,6 @@
 	:- {if you want to check out all files then run}
 		git checkout .
 
-11th 
+11th if you want to cloan any repository then do this
+	:- {select the folder you want to clone file then open git bash and run this}
+		git cloan (ssh link of any repo. you want to clone)
