@@ -42,3 +42,27 @@
 11th if you want to clone any repository then do this
 	:- {select the folder you want to clone file then open git bash and run this}
 		git clone (ssh link of any repo. you want to clone)
+
+							-:: about branch ::-
+12th for add new branch run
+	git branch (name of the branch)
+ex.	git branch login-system
+
+13th for switch branch run
+	git checkout (name of the branch you want to go)
+ex. 	git checkout login-system
+
+14th for check available branch run
+	git branch
+
+15th for merge branch run
+	git merge (name of the another you want to merge)
+ex.
+	if you are in master branch run
+	git merge login-system
+	
+	if you are in login-system branch run
+	git merge master
+							-:: about delet branch ::-
+
+16th 
