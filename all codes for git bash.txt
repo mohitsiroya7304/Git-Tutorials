@@ -63,6 +63,16 @@ ex.
 	
 	if you are in login-system branch run
 	git merge master
-							-:: about delet branch ::-
+							-:: about delete branch ::-
 
-16th 
+16th if you want to delete any branch then run
+	git branch -d (name of the branch)
+ex.
+	git branch -d login-system
+
+17th when you delete any branch that branch can't delete from git page,
+	so if you want to delete branch from git hub through remote then run,
+	
+	git push (name of the remote) --delete (name of the branch)
+ex.
+	git push origin --delete login-system 
